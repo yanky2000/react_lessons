@@ -7,7 +7,10 @@ function Post() {
     return (
         <div>
             <h1>Post</h1>
-            <Article article={article[0]}/>
+            <Article 
+                text={article[0]} 
+                foo="BAR" 
+                flag/>
         </div>
     )
 }
