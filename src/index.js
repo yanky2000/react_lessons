@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Post } from './components/Post';
+import Post from './components/Post';
 
 
 // function Article() {
@@ -23,4 +23,4 @@ import { Post } from './components/Post';
 //     )
 // }
 
-render(<Post/>, document.getElementById('root'))
+render(<Post />, document.getElementById('root'))
